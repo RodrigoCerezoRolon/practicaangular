@@ -1,0 +1,13 @@
+<h1 class="container bg-dark text-white text-center my-4 p-4">ngIf show={{show}}</h1>
+<div class="container">
+  <button class="btn btn-warning"(click)="show=!show">Accion</button>
+ <p class="text-info" *ngIf="show"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur molestias voluptates recusandae,
+   illo reprehenderit cumque id unde odio, cum laborum voluptatum sed veniam sunt nam culpa. Labore ad necessitatibus dolores.
+  </p>
+  <p class="text-danger">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita amet facere officia at tempore maiores repellendus iste ipsam, inventore facilis id explicabo omnis cupiditate eligendi, accusamus, corporis cumque! Quis, quia!
+  </p>
+  </div>
+<!--las dobles llaves es para poner variables-->
+<!--(click) se puede agregar el evento-->
+<!--ngIf mostrar o ocultar elementos de la pagina, si esta en falso desaparece el elemento, y tambien el codigo no se ve al inspeccionarlo-->
